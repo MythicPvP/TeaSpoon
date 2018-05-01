@@ -24,6 +24,7 @@ api:
 - 3.0.0-ALPHA19
 - 3.0.0-ALPHA20
 - 3.0.0-FUCKPMMP
+- 3.0.0-PMMPNEEDSTOBERECODED
 load: STARTUP
 author: CortexPE
 description: A PLUGIN to Extend PMMP's Functionality without completely changing it.
