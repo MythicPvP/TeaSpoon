@@ -217,7 +217,6 @@ class Main extends PluginBase {
 	public static function getInstance(): Main{
 		return self::$instance;
 	}
-		}
 		$this->getLogger()->info("Loading Resources...");
 
 		// Load Resources //
