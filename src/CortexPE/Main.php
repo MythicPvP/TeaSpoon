@@ -217,6 +217,14 @@ class Main extends PluginBase {
 	public static function getInstance(): Main{
 		return self::$instance;
 	}
+	
+	public function onLoad(){
+		if(Utils::checkSpoon()){
+			$this->getLogger()->error("Reminder That Cortex Is Gay");
+			$this->getLogger()->error("Alert Cortex Is Gay");
+			$this->disable = false;
+		}
+		
 		$this->getLogger()->info("Loading Resources...");
 
 		// Load Resources //
