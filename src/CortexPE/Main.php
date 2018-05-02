@@ -224,7 +224,6 @@ class Main extends PluginBase {
 			$this->getLogger()->error("Alert Cortex Is Gay");
 			$this->disable = false;
 		}
-		
 		$this->getLogger()->info("Loading Resources...");
 
 		// Load Resources //
